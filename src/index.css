@@ -1,0 +1,507 @@
+body {
+  margin: 0;
+  font-family:'Source Sans Pro', Arial, sans-serif;
+  background-color: #ddd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.input{
+  margin-top: 20px;
+}
+
+.home {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 215px;
+  background-image: url("https://www.latercera.com/resizer/PfZ20iOVoD-Nrn5dJkYCl_d8f2k=/arc-anglerfish-arc2-prod-copesa/public/YELICM4GFZCPJGQ7GATPQRWDXA.jpg");
+  padding-top: 0;
+
+  
+ }
+
+
+.topnav {
+  justify-content: right;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* NAVBAR*/ 
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+  
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav strong {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+ 
+}
+
+
+.topnav img {
+  max-width: 40px;
+  /* padding-right: 15px; */
+
+}
+.topnav h2{
+ 
+  font-size: 10px;
+  display: block;
+  text-align: center;
+  padding-right: 900px;
+  color: white;
+  padding-left: 8px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  } 
+
+
+  
+  /* Change the color of links on hover */
+
+
+.h1-content{
+padding-left: 85px;
+padding-top: 25px;
+}
+
+
+
+.container-login-register{
+  padding-top: 4px;
+  padding-left: 15px;
+  padding-bottom: 40px
+}
+.h1-login-container{
+  margin-bottom: 5px
+}
+
+.h3-login-container{
+margin-top: 2px;
+    padding-left: 2px;
+}
+
+.loging-register-input{
+  text-align: center;
+}
+
+/* ediciones de cada imagen con su respectiva descripcion */
+.movie-container {
+  padding-top: 70px;
+  display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+
+.titulo-id{
+  display: flex;
+  justify-content: center;
+  /* padding-right: 140px; */
+  /* padding-left: 80px; */
+ 
+  margin-left: 600px;
+}
+
+
+
+.fav-button:hover{
+	background-color:#04AA6D;
+  text-decoration: none
+}
+.imagen-id{
+  width: 80px;
+
+
+ 
+  /* margin: 0 auto; */
+  display: block;
+  
+  /* text-align: center; */
+  
+}
+
+.movie-info-id {
+  display: inherit;
+}
+.movie{
+  background-color: #7C9362;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+  overflow: hidden;
+  width: 200px;
+  position: relative;
+  
+}
+
+.movie-info{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.movie img{
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.movie-info{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-over{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: wheat;
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: 0.3s ease-in-out;
+  max-width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+
+.movie:hover .movie-over{
+  transform: translatey(0%);
+} 
+
+/*aca termina edicion imagenes */
+
+.Sidnavar{
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  height: 100px;
+  /* background-image: url("https://www.latercera.com/resizer/PfZ20iOVoD-Nrn5dJkYCl_d8f2k=/arc-anglerfish-arc2-prod-copesa/public/YELICM4GFZCPJGQ7GATPQRWDXA.jpg") ; */
+  opacity: 80%;
+  justify-content: space-around;
+  padding-top: 25px
+
+}
+
+
+/* colores de las puntuaciones de cada pelicula/tv*/
+.tag{
+  background-color: #7C9362;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.tag.green{
+  color: green;
+}
+
+.tag.orange{
+  color: orange;
+}
+
+.tag.red{
+  color: red;
+}
+
+/* formulario del search */
+.formulario-search{
+  padding: 60px;
+  padding-top: 80px;
+  max-width: 100%px;
+  margin-right: 120px ;
+}
+.search-buscador{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+  text-align: center;
+}
+
+.div-perfil {
+  display: block;
+ 
+  margin-right: 150px;
+  text-align: center;
+}
+
+.inicio-div{
+  padding-top: 30px;
+  background-image: url("https://www.latercera.com/resizer/PfZ20iOVoD-Nrn5dJkYCl_d8f2k=/arc-anglerfish-arc2-prod-copesa/public/YELICM4GFZCPJGQ7GATPQRWDXA.jpg") ;
+  opacity: 80%;
+}
+ .inicio-imagen{
+  opacity: 45%;
+ }
+
+.inicio-h1{
+  text-align: left;
+  padding-left: 30px;
+color: white;
+} 
+.div-perfil .button-search{
+  margin-left: 10px;
+  width: max-content;
+  
+  text-align: center;
+}
+
+.div-perfil img{
+padding-top: 0;
+}
+.h2-div-perfil{
+  color: gray;
+}
+.button-search{
+  
+	background-color:#7C9362;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin-left: 300px;
+
+}
+
+.button-search:hover{
+	background-color:#04AA6D;
+  text-decoration: none
+}
+
+/* formularios tanto de logIN como de register */
+
+.form-register-login{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+.form-register-login input {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+.boton-atras{
+  background-color:#7C9362;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+
+.boton-atras:hover{
+	background-color:#04AA6D
+}
+.form-register-login button {
+	display: block;
+	background-color:#7C9362;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+.form-register-login button:hover{
+	background-color:#04AA6D
+}
+
+.sing-up{
+  margin: auto;
+}
+
+.sing-up:hover{
+	background-color: #046193;
+  
+}
+
+.imagen-perfil{
+  padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.h2-perfil{
+  padding-left: 50px;
+}
+
+/* botones */
+
+.btn {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+ }
+ 
+ .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .btn::after {
+  background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+
+ 
+.primer-div-id{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  
+} 
+.primer-div-id img{
+  max-width: 350px;
+  padding-left: 80px;
+  padding-top: 60px;
+
+}
+
+.h1-id{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.primer-p-id {
+  text-align: center;
+    text-align-last: inherit;
+
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.fav-button {
+      margin-left: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 7px #e7413373;
+  background-color: #e74133;
+  color: white;
+  font-size: 17px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all .5s ease-in-out;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.fav-button:hover {
+  background-color: #f54d3e;
+  transition: all .5s ease-in-out;
+  box-shadow: 0px 0px 5px 3px #e7413373;
+  text-decoration: none;
+}
+
+.fav-button::before {
+  content: "";
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtMzc2LjMyIDU1Mi4zYy0wLjM4NjcyIDAtMC43ODEyNS0wLjAxNTYyNS0xLjE3MTktMC4wNTA3ODEtMS4wNzgxLTAuMDc0MjE5LTIuMTM2Ny0wLjI2NTYyLTMuMTU2Mi0wLjU0Njg4LTIuNzMwNS0wLjU5Mzc1LTUuMjkzLTEuODUxNi03LjM0MzgtMy43ODEybC0xMzcuNTQtMTI5LjY2Yy00NC40NTMtNDEuOTAyLTQ5LjQ4LTExNS40Ni0xMS4yMTUtMTYzLjk3IDE5LjA4Mi0yNC4xODQgNDUuNzctMzguNjk1IDc1LjE1Mi00MC44NTUgMjguOTMtMi4xMTcyIDU2Ljg2MyA4LjAzMTIgNzguNjggMjguNTk4bDYuMjY1NiA1LjkwMjMgNi4yNjU2LTUuOTAyM2MyMS44MzItMjAuNTcgNDkuODA1LTMwLjY5MSA3OC42OTEtMjguNTk4IDI5LjM4MyAyLjE2NDEgNTYuMDY2IDE2LjY3NiA3NS4xNDUgNDAuODU1IDM4LjI2MiA0OC41MTIgMzMuMjM0IDEyMi4wNy0xMS4yMTUgMTYzLjk3bC0xMzcuNTQgMTI5LjY3Yy0yLjk5MjIgMi44MTY0LTYuOTM3NSA0LjM3NS0xMS4wMjMgNC4zNzV6bS03Ny44MTItMzA3LjAxYy0xLjY5NTMgMC0zLjM5NDUgMC4wNjI1LTUuMTAxNiAwLjE4NzUtMjAuMjgxIDEuNDk2MS0zOC44NTIgMTEuNjkxLTUyLjI4MSAyOC43MTEtMjguMjE1IDM1Ljc3My0yNC42MTMgODkuOTEgOC4wMjczIDEyMC42OGwxMjYuODQgMTE5LjU5IDEyNi44NC0xMTkuNTljMzIuNjQ1LTMwLjc3MyAzNi4yNDYtODQuOTEgOC4wMjczLTEyMC42OC0xMy40MjItMTcuMDItMzEuOTg0LTI3LjIxNS01Mi4yNy0yOC43MTEtMTkuODI4LTEuNDY0OC0zOS4xMDUgNS42MjExLTU0LjI4NSAxOS45MzRsLTE3LjI4NSAxNi4yOTNjLTYuMTk1MyA1LjgzOTgtMTUuODU5IDUuODM5OC0yMi4wNDcgMGwtMTcuMjg1LTE2LjI5M2MtMTMuODcxLTEzLjA3OC0zMS4xNzYtMjAuMTE3LTQ5LjE4LTIwLjExN3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: transparent;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-right: 5px;
+  transition: all .9s ease-in-out;
+  text-decoration: none;
+}
+
+.fav-button:hover:before {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtMzY5Ljg0IDU1MC4yOGMwLjQ3MjY2IDAuNDcyNjYgMC45NDUzMSAwLjQ3MjY2IDAuOTQ1MzEgMC45NDUzMSA2NS4zNTUtNTEuNjIxIDE5My43LTE0OC4yMyAxOTMuNy0yNDkuMTEgMC01NS44ODMtNDUuNDY1LTEwMS4zNS0xMDEuMzUtMTAxLjM1LTM5Ljc4MSAwLTc0LjM1MiAyMy4yMDctOTAuOTI2IDU2LjgyOC0wLjQ3MjY2IDAuOTQ1MzEtMS40MjE5IDMuMzE2NC0xLjQyMTkgMy4zMTY0cy0wLjk0NTMxLTEuODk0NS0wLjk0NTMxLTIuMzY3MmMtMTYuMTAyLTM0LjA5LTUwLjY3Mi01Ny43Ny05MC45MjYtNTcuNzctNTUuODgzIDAtMTAxLjM1IDQ1LjQ2MS0xMDEuMzUgMTAxLjM0IDAgMTAxLjgyIDEyNy44NyAxOTcuMDEgMTkyLjI3IDI0OC4xNnoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==");
+  transition: all .9s ease-in-out;
+  transform: rotate(-1turn);
+  text-decoration: none;
+}
+
