@@ -1,6 +1,6 @@
 ### The Movie Data Base
 Catálogo donde podrás ver todas las peliculas y programas de televisión consumiendo la información de la API de The Movie Database (TMDB).
-Proyecto PERN empezado y terminado en el plazo de 7 dias. 
+Primer proyecto como desarrolladora PERN, de forma individual, empezado y terminado en el plazo de 7 dias. 
 ### Funcionalidades:
 
 - Buscar y listar películas.
@@ -18,7 +18,7 @@ Express - JWT - PostgreSQL - Sequelize - Bycript - React - Redux - ChakraUI - Gi
 
 ------------------------------------------------------------------------------------
 Movie and Tv show catalogue web application consuming TMDB's API.
-This project PERN was started and finished in 7 days.
+My first project as developer PERN, solo proyect and it was started and finished in 7 days.
 ### Funcionalities:
 
 - Film and Tv show's list.
